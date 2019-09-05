@@ -1,0 +1,1 @@
+from ocr.text_detector import Tesseract

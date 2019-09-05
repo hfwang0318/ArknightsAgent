@@ -1,0 +1,25 @@
+class PageConf():
+    _main_page = 0 # 主页面
+    _activate_huolan_page = 2 # 火蓝主页面
+    _activate_battle_select_huolan_stage_1 = 4 # 火蓝主舞台选关页面
+    _activate_battle_select_huolan_stage_2 = 6 # 火蓝嘉年华选关页面
+    _base_page = 8 # 基建
+    _zhanshu_page = 10 # 战术演戏
+    _kongzhong_page = 12 # 空中威胁
+    _ziyuan_page = 14 # 资源保障
+    _fensui_page = 16 # 粉碎防御
+    _huowu_page = 18 # 货物运送
+    _guruojintang_page = 20 # 固若金汤
+    _cuikulaxiu_page = 22 # 摧枯拉朽
+    _shibukedang_page = 24 # 势不可挡
+    _shenxianshizu_page = 26 # 身先士卒
+    _jiaomie_page = 28 # 剿灭作战
+    _wuzi_page = 30 # 物资筹备页面
+    _xinpian_page = 32 # 芯片搜索页面
+    _zhuxian_0_page = 34 # 主线序章
+    _zhuxian_1_page = 36 # 主线第一章
+    _zhuxian_2_page = 38 # 主线第二章
+    _zhuxian_3_page = 40 # 主线第三章
+    _zhuxian_4_page = 42 # 主线第四章
+    _zhuxian_5_page = 44 # 主线第五章
+    _zhuxian_page = 46 # 主线界面
