@@ -29,7 +29,7 @@ cmd cd 到脚本根目录输入 `python main.py -m OF-8,2`, 脚本将开始运�
 * 代理 CE-5 关卡 3 次。<br>
 `python main.py -m CE-5,3`
 * 代理 OF-8 关卡 5 次后再代理 OF-F4 关卡至门票消耗完。<br>
-`python main.py -m OF-8,5,OF-F4,-1`。<br>
+`python main.py -m OF-8,5,OF-F4,-1`<br>
 * 代理 OF-8 关卡至理智全部消耗，并自动使用一支理智合剂和一颗源石。<br>
 `python main.py -m OF-8,-1 --use-mixture --n-mixture 1 --use-stone --n-stone 1`
 * 代理 龙门市区 至理智耗尽，然后自动关机。<br>
