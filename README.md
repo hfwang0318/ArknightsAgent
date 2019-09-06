@@ -42,7 +42,7 @@ cmd cd 到脚本根目录输入 `python main.py -m OF-8,2`, 脚本将开始运�
 
 # 目前支持的关卡(19/09/06 Update)
 OF-6<br>
-0F-7<br>
+OF-7<br>
 OF-8<br>
 OF-F1<br>
 OF-F2<br>
