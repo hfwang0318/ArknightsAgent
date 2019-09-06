@@ -2,8 +2,7 @@ import operator
 
 
 def get_support_resolution():
-    resolution_lists = [[1280, 780],
-                        [1600, 900]]
+    resolution_lists = [[1600, 900]]
     return resolution_lists
 
 
