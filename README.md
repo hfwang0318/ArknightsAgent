@@ -1,6 +1,9 @@
 # ArknightsAgent(明日方舟自动代理)
 整合了图像识别模块的自动代理脚本。
 
+# Requirements
+`Python3`
+
 # Useage
 本脚本使用 MuMu 模拟器作为默认模拟器，使用前请将模拟器的分辨率设置为 1600*900。
 
