@@ -39,3 +39,5 @@ cmd cd 到脚本根目录输入 `python main.py -m OF-8,2`, 脚本将开始运�
 `python main.py -m OF-8,-1 --use-mixture --n-mixture 1 --use-stone --n-stone 1`
 * 代理 龙门市区 至理智耗尽，然后自动关机。<br>
 `python -m 龙门市区,-1 -p "shutdown -s -t 300"`
+
+# 目前支持的关卡(19/09/06 Update)
