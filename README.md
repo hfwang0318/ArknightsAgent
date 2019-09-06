@@ -9,8 +9,8 @@
 `--local-host[-l] 127.0.0.1:port`
 
 # Requirements
-`Numpy`
-`OpenCV2`
+`Numpy`<br>
+`OpenCV2`<br>
 可以通过执行`pip install -r requirements.txt`快速安装所有依赖。
 
 # Usage
