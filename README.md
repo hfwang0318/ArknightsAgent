@@ -1,15 +1,19 @@
 # ArknightsAgent(明日方舟自动代理)
 整合了图像识别模块的自动代理脚本。支持多任务队列，自动使用理智合剂和源石等功能的便利代理。
 
-# Useage
-本脚本使用 MuMu 模拟器作为默认模拟器，使用前请将模拟器的分辨率设置为 1600*900。
+# Notice
+* 本脚本使用 MuMu 模拟器作为默认模拟器，使用前请将模拟器的分辨率设置为 1600*900。
+* 使用前需要先安装 Tesseract 框架和下载模型数据。并加入到环境变量。
+* 请预先下载 `adb` 工具，并加入到环境变量。（MuMu 模拟器自带的 adb 位于根目录/adb_server.exe）
+* 若需要使用其他模拟器，请自行指定模拟器占用端口。<br>
+`--local-host[-l] 127.0.0.1:port`
 
 # Requirements
 `Numpy`
 `OpenCV2`
 可以通过执行`pip install -r requirements.txt`快速安装所有依赖。
 
-# Run Auto Agent
+# Usage
 ## Base
 打开模拟器先进入游戏任意页面（请保证左上角有主页按钮，即不能在`设置`等页面启用脚本）。<br>
 cmd cd 到脚本根目录输入 `python main.py -m OF-8,2`, 脚本将开始运行。<br>
@@ -24,6 +28,7 @@ cmd cd 到脚本根目录输入 `python main.py -m OF-8,2`, 脚本将开始运�
 `--n-mixture` 使用理智合剂的数量。<br>
 `--n-stone` 使用源石的数量。<br>
 `--plan[-p]` 代理完成后需要执行的操作。<br>
+`--local-host[-l]` 虚拟机占用的本地端口。<br>
 
 ## Examples
 * 代理 CE-5 关卡 3 次。<br>
