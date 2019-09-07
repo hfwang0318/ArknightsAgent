@@ -147,4 +147,5 @@ class Agent():
         if not DEBUG:
             self._clear_buffer()
 
-        os.system(self.__plan)
+        if self.__plan is not None:
+            os.system(self.__plan)
