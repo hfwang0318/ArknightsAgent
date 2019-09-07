@@ -364,12 +364,12 @@ class PageSelector():
 
         elif target_type == MissionTypeConf._type_wuzi:
             self._move_to_target_page(PageConf._wuzi_page, cur_page)
-            x, y = self._get_route(target)
+            x, y = self._get_route(target)[0]
             self.__adb_helper._click(x, y, epsilon=5)
 
         elif target_type == MissionTypeConf._type_xinpian:
             self._move_to_target_page(PageConf._xinpian_page, cur_page)
-            x, y = self._get_route(target)
+            x, y = self._get_route(target)[0]
             self.__adb_helper._click(x, y, epsilon=5)
 
         elif target_type == MissionTypeConf._type_jiaomie:
