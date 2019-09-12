@@ -80,7 +80,7 @@ class ResolutionMap():
                                 '4-3': {'coord': (1265, 415, 1325, 450), 'type': 'bbox'},
                                 '5-2': {'coord': (1160, 390, 1225, 425), 'type': 'bbox'},
                                 'chap_0': {'coord': (450, 465), 'type': 'point'},
-                                'chap_1': {'coord': (225, 465), 'type': 'point'},
+                                'chap_1': {'coord': (1070, 465), 'type': 'point'},
                                 'chap_2': {'coord': (845, 465), 'type': 'point'},
                                 'chap_3': {'coord': (1340, 465), 'type': 'point'},
                                 'chap_4': {'coord': (1250, 465), 'type': 'point'},
@@ -97,6 +97,7 @@ class ResolutionMap():
                                 '4-4': {'coord': (1365, 435), 'type': 'point'},
                                 '5-8': {'coord': (1555, 455), 'type': 'point'},
                                 '5-1': {'coord': (800, 510), 'type': 'point'},
+                                '1-7': {'coord': (1430, 285), 'type': 'point'},
                                 }
 
             # 活动相关

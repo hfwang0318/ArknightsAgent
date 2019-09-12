@@ -82,6 +82,7 @@ class MissionLocConf():
         ],
         PageConf._zhuxian_1_page: [
             '1-1',
+            '1-7',
         ],
         PageConf._zhuxian_2_page: [
             '2-1',

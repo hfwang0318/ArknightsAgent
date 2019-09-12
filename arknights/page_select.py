@@ -330,7 +330,7 @@ class PageSelector():
         elif target_type == MissionTypeConf._type_zhuxian_1:
             self._move_to_target_page(PageConf._zhuxian_page, cur_page)
             self._to_left()
-            self._to_delta_right(1)
+            self._to_delta_right(0)
             x, y = self.__map._get_coord('chap_1')
             self.__adb_helper._click(x, y, epsilon=10, delay=2)
 
