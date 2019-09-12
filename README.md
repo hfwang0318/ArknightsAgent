@@ -40,7 +40,7 @@ cmd cd 到脚本根目录输入 `python main.py -m OF-8,2`, 脚本将开始运�
 * 代理 龙门市区 至理智耗尽，然后自动关机。<br>
 `python -m 龙门市区,-1 -p "shutdown -s -t 300"`
 
-# 目前支持的关卡(19/09/06 Update)
+# 目前支持的关卡(19/09/12 Update)
 OF-6<br>
 OF-7<br>
 OF-8<br>
@@ -85,6 +85,7 @@ PR-D-2<br>
 龙门外环<br>
 龙门市区<br>
 0-1<br>
+1-7<br>
 3-8<br>
 4-5<br>
 S4-1<br>
