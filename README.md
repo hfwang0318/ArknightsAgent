@@ -9,8 +9,8 @@ Tesseract 5.0：<br>
 模型数据：<br>
 [chi_sim.traineddata](https://github.com/tesseract-ocr/tessdata/raw/master/chi_sim.traineddata)<br>
 以上链接引用自：<br>
- * [UB-Mannheim/tesseract](https://github.com/UB-Mannheim/tesseract/wiki)<br>
- * [tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)<br>
+    * [UB-Mannheim/tesseract](https://github.com/UB-Mannheim/tesseract/wiki)<br>
+    * [tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)<br>
 * 请预先下载 `adb` 工具，并加入到环境变量。（MuMu 模拟器自带的 adb 位于根目录/adb_server.exe）
 * 若需要使用其他模拟器，请自行指定模拟器占用端口。<br>
 `--local-host[-l] 127.0.0.1:port`
