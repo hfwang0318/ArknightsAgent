@@ -89,11 +89,11 @@ class PageSelector():
 
 
             # 物资筹备和芯片搜索中子关卡顺序坐标
-            self.__route_wuzi_order = {1: [[240, 625]],
-                                       2: [[570, 620]],
-                                       3: [[910, 620]],
-                                       4: [[1245, 620]],
-                                       5: [[1535, 625]]}
+            self.__route_wuzi_order = {1: [240, 625],
+                                       2: [570, 620],
+                                       3: [910, 620],
+                                       4: [1245, 620],
+                                       5: [1535, 625]}
 
             self.__route_wuzi_base = [[1220, 255],
                                       [300, 835]]
@@ -364,12 +364,12 @@ class PageSelector():
 
         elif target_type == MissionTypeConf._type_wuzi:
             self._move_to_target_page(PageConf._wuzi_page, cur_page)
-            x, y = self._get_route(target)[0]
+            x, y = self._get_route(target)
             self.__adb_helper._click(x, y, epsilon=5)
 
         elif target_type == MissionTypeConf._type_xinpian:
             self._move_to_target_page(PageConf._xinpian_page, cur_page)
-            x, y = self._get_route(target)[0]
+            x, y = self._get_route(target)
             self.__adb_helper._click(x, y, epsilon=5)
 
         elif target_type == MissionTypeConf._type_jiaomie:
