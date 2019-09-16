@@ -4,6 +4,13 @@
 # Notice
 * **本脚本使用 MuMu 模拟器作为默认模拟器，使用前请将模拟器的分辨率设置为 1600*900。**
 * 使用前需要先安装 Tesseract 框架和下载模型数据。并加入到环境变量。
+Tesseract 5.0<br>
+[tesseract-ocr-w32-setup-v5.0.0-alpha.20190708.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0-alpha.20190708.exe)<br>
+模型数据<br>
+[chi_sim.traineddata](https://github.com/tesseract-ocr/tessdata/raw/master/chi_sim.traineddata)<br>
+以上链接引用自<br>
+[UB-Mannheim/tesseract](https://github.com/UB-Mannheim/tesseract/wiki)<br>
+[tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)<br>
 * 请预先下载 `adb` 工具，并加入到环境变量。（MuMu 模拟器自带的 adb 位于根目录/adb_server.exe）
 * 若需要使用其他模拟器，请自行指定模拟器占用端口。<br>
 `--local-host[-l] 127.0.0.1:port`
