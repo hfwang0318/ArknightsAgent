@@ -7,7 +7,7 @@ import sys
 parser = argparse.ArgumentParser()
 parser.add_argument('-r', '--resolution', type=str, default='1600,900')
 parser.add_argument('-l', '--local-host', type=str, default='127.0.0.1:7555')
-parser.add_argument('-t', '--tessdata-dir', type=str, default=None)
+parser.add_argument('-t', '--tessdata-dir', type=str, default='./')
 parser.add_argument('-m', '--missions', type=str, default=None)
 parser.add_argument('--daily', '-d', type=int, default=None, help='do daily `n` times')
 parser.add_argument('--use-mixture', default=False, action='store_true')
