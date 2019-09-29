@@ -3,7 +3,7 @@
 
 # Notice
 * **本脚本使用 MuMu 模拟器作为默认模拟器，使用前请将模拟器的分辨率设置为 1600*900。**
-* 使用前需要先安装 Tesseract 框架(必选)和下载模型数据(可选)。并加入到环境变量。<br>
+* 使用前需要先安装 Tesseract 框架和下载模型数据，将 Tesseract 根目录加入到环境变量，将模型数据放在脚本根目录。<br>
 Tesseract 5.0：<br>
 [tesseract-ocr-w32-setup-v5.0.0-alpha.20190708.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0-alpha.20190708.exe)<br>
 模型数据：<br>
